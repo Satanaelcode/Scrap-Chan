@@ -7,7 +7,7 @@ print('Type your token:')
 token = input()
 
 if token == '0':
-    token = 'ODAzMzc4Mzk0MDA2OTQ1ODk0.G5J7u_.Ld8N4WOsrInqkrpBgm73-89gq2kWcPJTv55_yQ'
+    token = '<DEFAULT TOKEN HERE>'
 
 
 def random_string():
