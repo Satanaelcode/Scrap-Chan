@@ -6,9 +6,11 @@ A discord bot made in Python3 that scraps images from prnt.sc
 First you need [Python](https://www.python.org/downloads/ "Python Installation") installed
 
 Second you install the requirements
+
 ``` pip install -r requriements.txt ```
 
 Now just run the main.py file
+
 ``` python main.py ```
 
 ### OPTIONAL
