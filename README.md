@@ -7,11 +7,15 @@ First you need [Python](https://www.python.org/downloads/ "Python Installation")
 
 Second you install the requirements
 
-``` pip install -r requriements.txt ```
+``` 
+pip install -r requriements.txt
+```
 
 Now just run the main.py file
 
-``` python main.py ```
+```
+python main.py
+```
 
 ### OPTIONAL
 
