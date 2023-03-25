@@ -16,7 +16,9 @@ First you need [Python](https://www.python.org/downloads/ "Python Installation")
 Second you install the requirements
 
 Third you need a wordlist in the folder of the main.py file
-<ls>_(recommandation https://raw.githubusercontent.com/danielmiessler/SecLists/master/Fuzzing/1-4_all_letters_a-z.txt)_ </ls>
+<ls>
+  _(recommandation https://raw.githubusercontent.com/danielmiessler/SecLists/master/Fuzzing/1-4_all_letters_a-z.txt)_ 
+</ls>
 
 ``` 
 pip install -r requriements.txt
