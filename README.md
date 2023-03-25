@@ -1,5 +1,13 @@
 # Scrap-Chan
-A discord bot made in Python3 that scraps images from prnt.sc
+A discord bot made in Python3 that scraps images from unsecured backend APIs
+
+CURRENT SERVICES:
+<br>
+<ls>
+* Lightshot (legacy only)
+* Puu.sh
+</ls>
+</br>
 
 ## How to setup
 
