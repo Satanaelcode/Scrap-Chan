@@ -36,10 +36,10 @@ async def on_ready():
         if choice == 1:
             massage = "https://prnt.sc/" + random_string_srcsh()
             print('send link: ' + massage)
-            channel1 = client.get_channel(1083729359988346932)
+            channel1 = client.get_channel(<CHANNELID1>)
             await channel1.send(str(massage), silent=True)
             ## WORK IN PROGRESS
-            # channel2 = client.get_channel(1083729359988346932)
+            # channel2 = client.get_channel(<CHANNELID2>)
             # await channel2.send(str(massage), silent=True)
             time.sleep(25)
         else:
@@ -53,7 +53,7 @@ async def on_ready():
 
             massage = "https://puu.sh/{}".format(selected_word)
             print('send link: ' + massage)
-            channel1 = client.get_channel(1083729359988346932)
+            channel1 = client.get_channel(CHANNELID1)
             await channel1.send(str(massage), silent=True)
             time.sleep(25)
 
