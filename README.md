@@ -15,13 +15,13 @@ First you need [Python](https://www.python.org/downloads/ "Python Installation")
 
 Second you install the requirements
 
-Third you need a wordlist in the folder of the main.py file
-here is my [recommandation](https://github.com/danielmiessler/SecLists/blob/master/Fuzzing)
-
 
 ``` 
 pip install -r requriements.txt
 ```
+
+Third you need a wordlist in the folder of the main.py file
+here is my [recommandation](https://github.com/danielmiessler/SecLists/blob/master/Fuzzing)
 
 Now just run the main.py file
 
