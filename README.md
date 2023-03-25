@@ -16,8 +16,7 @@ First you need [Python](https://www.python.org/downloads/ "Python Installation")
 Second you install the requirements
 
 Third you need a wordlist in the folder of the main.py file
-
-[recommandation](https://github.com/danielmiessler/SecLists/blob/master/Fuzzing)
+here is my [recommandation](https://github.com/danielmiessler/SecLists/blob/master/Fuzzing)
 
 
 ``` 
