@@ -11,7 +11,7 @@ print("\x1b[35;49m" + 'Enter your token \n(If set you can type 0 for default):' 
 token = input()
 
 if token == '0':
-    token = 'default token'
+    token = '<token>'
 
 # Keep track of the index of the last word used
 last_word_index = -1
