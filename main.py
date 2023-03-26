@@ -24,23 +24,6 @@ def random_string_srcsh():
         random.choice(letters) + random.choice(letters) + random.choice(digits) + random.choice(digits) + random.choice(
             digits) + random.choice(digits))
 
-
-def check_puush(puush_url):
-    try:
-        # make a request to the URL
-        response = requests.get(puush_url, timeout=timeout)
-
-        # check if response is a valid image
-        if response.status_code == 200 and 'image' in response.headers['content-type']:
-            print("Found valid image at:", puush_url)
-
-        else:
-            print(puush_url, "is not a valid image. Retrying...")
-
-    except requests.exceptions.RequestException:
-        print("Timeout to", puush_url, ". Retrying...")
-
-
 intents = discord.Intents.all()
 client = discord.Client(command_prefix='!', intents=intents)
 
@@ -79,8 +62,9 @@ async def on_ready():
                     if response.status_code == 200 and 'image' in response.headers['content-type']:
                         print("Found valid image at:", puush_url)
                         await channel1.send(str(puush_url), silent=True)
+                        time.sleep(25)
                         break
-
+                        
                     else:
                         print(puush_url, "is not a valid image. Retrying...")
 
